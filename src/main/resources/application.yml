@@ -4,6 +4,11 @@ spring:
     time-zone: GMT+8
     serialization:
       write-dates-as-timestamps: false
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://106.13.53.183:3306/study
+    username: root
+    password: 123456
 
 logging:
   file: target/app.log
